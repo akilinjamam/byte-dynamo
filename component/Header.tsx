@@ -28,7 +28,7 @@ const Header = () => {
           </nav>
 
           <a
-            href="#contact"
+            href="#projects"
             className="bg-linear-to-r from-blue-500 to-cyan-400 text-black px-4 py-2 rounded-md text-sm font-semibold hover:opacity-90 hidden md:block lg:block "
           >
             Get Demo
@@ -76,7 +76,7 @@ const Header = () => {
         ))}
 
         <a
-        href="#contact"
+        href="#projects"
         onClick={() => setMenuOpen(false)}
         className="mt-6 bg-linear-to-r from-blue-500 to-cyan-400 text-black px-4 py-2 rounded-md text-center font-semibold"
         >

@@ -158,14 +158,22 @@ export default function HomePage() {
               POS ERP Software
             </h4>
 
-            <ul className="space-y-3 text-gray-300 text-left">
+            <div className="flex items-center justify-around">
+              <div>
+              <ul className="space-y-3 text-gray-300 text-left">
               <li>✔ Sales & smart billing system</li>
               <li>✔ Inventory & stock management</li>
               <li>✔ Barcode & invoice generation</li>
-              <li>✔ Employee & payroll modules</li>
-              <li>✔ Business analytics & reports</li>
-              <li>✔ Single & multi-branch support</li>
             </ul>
+              </div>
+              <div>
+                <ul className="space-y-3 text-gray-300 text-left">
+                <li>✔ Employee & payroll modules</li>
+                <li>✔ Business analytics & reports</li>
+                <li>✔ Single & multi-branch support</li>
+              </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
